@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="dk">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="https://use.typekit.net/tjh5pmx.css">
+	<title>Concept Website Design 1</title>
+	<style type="text/css">
+
+		body {
+	        background-size: 100%; 
+		}
+
+		body,
+	    html {
+	        margin: 0;
+	        padding: 0;
+	        height: 100vh;
+	        width: 100vw;
+	        background-color: #faf3ed;
+	    }
+	    
+	    html {
+	       	box-sizing: border-box;
+	    }
+
+	    section {
+	    	width: 100%;
+	    	height: 100%;
+	    }
+
+	    h1 {
+			font-family: poppins, sans-serif;
+			font-weight: 1200;
+			font-style: normal;
+			color: #005744;
+			margin-left: 2vh;
+			font-size: 28px;
+	    }
+
+	    h2 {
+	    	font-size: 50px;
+	    	font-family: poppins, sans-serif;
+			font-weight: 600;
+			font-style: normal;
+			color: #005744;
+			margin-left: 2vh;
+			line-height: 1.2;
+	    }
+
+	    h3 {
+	    	margin-left: 2vh;
+	    	font-size: 20px;
+	    	font-family: poppins, sans-serif;
+			font-weight: 600;
+			font-style: normal;
+			color: #005744;
+			margin-left: 2vh;
+	    }
+
+	    h4 {
+	    	margin-left: 2vh;
+	    	font-family: poppins, sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			color: #303134;
+	    }
+
+	    h5 {
+	    	margin-left: 2vh;
+	    	font-family: poppins, sans-serif;
+			font-weight: 900;
+			font-style: normal;
+			color: #303134;
+			font-size: 20px;
+			margin-top: -15px;
+			text-align: center;
+	    }
+
+	    p {
+	    	margin-left: 2vh;
+	    	font-family: poppins, sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			font-size: 13px;
+			color: #303134;
+	    }
+
+		#logo {
+			background: url("concept_logo.png");
+			background-size: contain; 
+			background-repeat: no-repeat;
+			background-position: top center;
+			width: 100%;
+			height: 60px;
+			margin-top: 20px;
+			margin-left: 4vw;
+		}
+
+		#section_1 {
+			background-color: orange;
+			height: 100%;
+			width: 100%;
+		}
+
+		.one {
+			width: 90%;
+			height: 40%;
+		}
+
+		 .two {
+			width: 100%;
+			height: 40%;
+			margin-top: 100px;
+		}
+
+
+		#text1 {
+			width: 90%;
+			height: 90px;
+			margin-top: 30px;
+			margin-left: 1.5vh;
+		}
+
+		#square_1 {
+			width: 80%;
+			height: 200px;
+			background-color: #ffafa2;
+			z-index: -1;
+			margin-top: -125px;
+			margin-left: 0px;
+		}
+
+		#image_1 {
+			background: url("image_1.jpg");
+			background-size: contain; 
+			background-repeat: no-repeat;
+			background-position: left;
+			width: 100%;
+			height: 56vh;
+			transform: rotate(90deg);
+		}
+		
+		#image_2 {
+			background: url("image_2.jpg");
+			background-size: contain; 
+			background-repeat: no-repeat;
+			width: 80%;
+			height: 60vh;
+			margin-left: 40px;
+			transform: rotate(0deg);
+		}
+
+		.div1 {
+			margin-left: 1vh;
+			margin-top: 0vh;
+		}
+
+		.div2 {
+			width: 100%;
+			margin-left: 1vh;
+			margin-top: -5vh;		
+		}
+
+		.div3 {
+			width: 100%;
+			margin-left: 1vh;
+			margin-top: -3vh;	
+		}
+
+		.text_box {
+			margin-top: -5vh;
+		}
+
+		#two_2 {
+			margin-top: 270px;
+		}
+
+		#brands {
+			width: 100%;
+			height: 60px;
+			background-color: blue;
+			bottom: 0;
+			z-index: 1;
+			margin-top: 300px;
+		}
+
+		#proud {
+			visibility: hidden;
+		}
+
+		#proud2 {
+			margin-left: 2vh;
+	    	font-family: poppins, sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			font-size: 13px;
+			color: #999999;
+		}
+
+		.h2_2 {
+			margin-top: -25px;
+		}
+
+		.h3_3 {
+			color: #a2d39b;
+			font-size: 18px;
+		}
+
+		.h4_4 {
+			color: white;
+			margin-top: -10px;
+			line-height: 1.3;
+		}
+
+		.div4 {
+			padding: 15px;
+		}
+
+		#box_2 {
+			margin-top: 40px;
+			width: 95%;
+		}
+
+		.div5 {
+			width: 75%;
+			padding: 0px;
+		}
+
+		#two_3 {
+			width: 100%;
+			height:85vh;
+			background-color: #005744;
+			border: 0px solid #005744 ;
+		}
+
+		#two_4 {
+			width: 100%;
+			height: 90vh;
+			background-color: #faf3ed;
+			border: 0px solid #005744 ;
+		}
+
+		#one_3 {
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+
+		.div6 {
+			width: 40%;
+			background-color: yellow;
+		}
+
+		#one_4 {
+			height: 260vh;
+			width: 90%;
+			padding: 0px;
+			background-color: yellow;
+		}
+
+		#box_4 {
+			display: flex;
+	   		flex-direction: column;
+	   		justify-content: center;
+	   		align-items: center;
+		}
+
+		#section_5 {
+			width: 100%;
+			height: 260vh;
+			float: left;
+		}
+
+		#section_6 {
+			background-color: violet;
+			float: left;
+			height: 50%;
+			width: 100%;
+		}
+
+		#section_7 {
+			background-color: green;
+			height: 100vh;
+			float: left;
+			width: 100%;
+		}
+
+		#section_6 {
+			background-color: orange;
+			margin-top: 20vh;
+			height: 200vh;
+		}
+
+		#one_5{
+			height: 200vh;
+		}
+
+
+		@media only screen and (min-width: 700px) {
+
+
+		#logo {
+			background-position: top center;
+			width: 100%;
+			height: 40px;
+			top: 30px;
+		}
+
+		#text1 {
+			width: 90%;
+			height: 90px;
+			margin-top: 100px;
+			margin-left: 1.5vh;
+		}
+
+		#image_1 {
+			background-position: bottom right;
+			width: 100%;
+			height: 33vh;
+			margin-left: 200px;
+			bottom: 0px;
+		}
+
+
+		@media only screen and (min-width: 1025px) {
+
+		 h1 {
+			font-family: poppins, sans-serif;
+			font-weight: 1500;
+			font-style: normal;
+			color: #005744;
+			font-size: 48px;
+	    }
+
+	   	h2 {
+	    	font-size: 60px;
+	    	font-family: poppins, sans-serif;
+			font-weight: 600;
+			font-style: normal;
+			color: #005744;
+			margin-left: 2vh;
+	    }
+
+	    h3 {
+	    	margin-left: 2vh;
+	    	font-size: 20px;
+	    	font-family: poppins, sans-serif;
+			font-weight: 600;
+			font-style: normal;
+			color: #005744;
+			margin-left: 2vh;
+	    }
+
+	    h4 {
+	    	margin-left: 2vh;
+	    	font-family: poppins, sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			color: #005744;
+	    }
+
+	    p {
+	    	margin-left: 2vh;
+	    	font-family: poppins, sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			font-size: 13px;
+			color: #303134;
+	    }
+
+	    #section_1 {
+	    	height: 100%;
+	    }
+
+	    #section_2, #section_3, #section_4, #section_5, {
+	    	display: inline-block;
+	    	overflow: hidden;
+	    }
+
+		#logo {
+			height: 50px;
+			margin-top: 20px;
+			background-position: top left;
+			margin-left: 40px;
+		}
+
+		.one {
+	 		width: 50%;
+			float:  left;
+			padding: 20px;
+			border: 1px solid yellow;
+		}
+
+		.two {
+			width: 40%;
+			float: left;
+			margin-top: 0px;
+
+		}
+
+		#square_1 {
+			width: 60%;
+			height: 200px;
+			background-color: #ffafa2;
+			z-index: -1;
+			margin-top: -210px;
+			margin-left: -20px;
+		}
+
+		#text1 {
+			background-position: left;
+			width: 100%;
+			height: 100%;
+			margin-top: 100px;
+			margin-left: 10vh;
+			background-color: yellow;
+		}
+
+		#image_1 {
+			width: 100%;
+			height: 100vh;
+			margin-left: 0px;
+			transform: rotate(0deg);
+			background-size: cover;
+			top: 0; 
+			margin-left: 7vw;
+		}
+
+		#text2 {
+			background-position: left;
+			width: 100%;
+			height: 100%;
+			margin-top: 100px;
+			margin-left: 10vh;
+			background-color: yellow;
+		}
+
+		#image_2 {
+			background: url("image_2.jpg");
+			background-size: contain; 
+			background-repeat: no-repeat;
+			width: 70%;
+			height: 70vh;
+			transform: rotate(0deg);
+			top: 0; 
+			margin-top: 40px;
+			margin-left: 7vw;
+		}
+
+		.div1 {
+			margin-left: 10vh;
+			margin-top: 0vh;
+		}
+
+		.div2 {
+			width: 100%;
+			margin-left: 10vh;
+			margin-top: -5vh;		
+		}
+
+		.div3 {
+			width: 100%;
+			margin-left: 10vh;
+			margin-top: -3vh;		
+		}
+
+		.text_box {
+			margin-top: -30vh;
+		}
+
+		#two_2 {
+			margin-top: 0px;
+		}
+
+		#two_3 {
+			width: 42%;
+			height: 100vh;
+			background-color: #005744;
+			border: 0px solid #005744 ;
+		}
+
+		#one_3 {
+			width: 55%;
+		}
+
+		#proud {
+			visibility: visible;
+			margin-left: 2vh;
+	    	font-family: poppins, sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			font-size: 13px;
+			color: #999999;
+			margin-top: 200px;
+		}
+
+		#proud2 {
+			visibility: hidden;
+		}
+
+		#brands {
+			width: 80%;
+			height: 60px;
+			background-color: blue;
+			bottom: 0;
+			z-index: 1;
+			margin-top: -100px;
+			margin-left: 15vh;
+		}
+
+		#text3 {
+			background-position: left;
+			width: 80%;
+			height: 100%;
+			margin-top: 100px;
+			margin-left: 10vh;
+			background-color: yellow;
+			font-weight: 900;
+		}
+
+		.h3_3 {
+			color: #a2d39b;
+		}
+
+		.h4_4 {
+			color: white;
+			margin-top: -10px;
+			line-height: 1.3;
+		}
+
+		#box_2, #box_3 {
+			margin-top: 100px;
+		}
+
+		.div4 {
+			padding: 40px;
+		}
+
+		.div7 {
+			padding: 20px;
+		}
+
+		.div5 {
+			width: 70%;
+		}
+
+		#two_4 {
+			width: 30%;
+			height: 90vh;
+			background-color: #faf3ed;
+			border: 0px solid #005744 ;
+		}
+
+		#one_4 {
+			width: 95%;
+			height: 100vh;
+			margin-bottom: 50px;
+		}
+
+		#box_4 {
+			display: unset;
+			flex-direction: none;
+	   		justify-content: none;
+	   		align-items: none;
+		}
+
+		#one_5 {
+			width: 95%;
+			height: 100vh;
+		}
+
+		#section_5{
+			height: 100vh;
+		}
+
+		#section_6 {
+			background-color: orange;
+			margin-top: 20vh;
+			height: 100vh;
+		}
+
+		#one_5{
+			height: 100vh;
+		}
+
+		#box_6 {
+			margin-left: 10vh;
+			margin-top: -150px;
+		}
+
+		#box_left, #box_right {
+			width: 40%;
+		}
+
+
+	}
+
+	</style>
+</head>
+<body>
+	<section id="section_1">
+
+		
+		<div class="one" style="background-color:#decddd;float:left">
+
+			<div id="logo"></div>
+			
+
+			<div id="text1">
+				<h1>Digital advertising <br>
+				in premium editorial<br>
+				in the Nordic region</h1>
+
+				<div id="square_1"></div>
+			</div>
+		</div>
+
+		<div class="two" style="background-color:#cedddd;float:left">
+			<div id="image_1" class="absolute"></div>
+		</div>
+
+	</section>
+
+	<section id="section_2">
+		
+		<div class="one" style="background-color:#decddd;float:left">
+
+			<div id="text2">
+				<h2>Who we are</h2>
+			</div>
+
+			<div class="text_box">
+				<div class="div1" style="float:left">
+					<h3>A house of brands</h3>
+				</div>
+			
+				<div class="div2" style="float:left">
+					<h4>- all leading players 
+						within their field in the digital advertising space.
+					</h4>
+				</div>
+
+				<div class="div3" style="float:left">
+					<p>We have a strong track record in developing and growing successful brands and companies for the last 15 years. 
+					</p>
+				</div>
+			</div>
+
+			<div class="text_box">
+				<div class="div1" style="float:left">
+					<h3>One-stop-shop</h3>
+				</div>
+			
+				<div class="div2" style="float:left">
+					<h4>to create and deliver digital advertising without all the hassle.
+					</h4>
+				</div>
+
+				<div class="div3" style="float:left">
+					<p>We remove friction in the whale process, and we’re well known for delivering the best service in our industry. 
+					</p>
+
+					<p id="proud">Proud to serve mega brands everyday</p>
+				</div>
+			</div>
+
+		</div>
+		
+
+		<div class="two" id="two_2" style="background-color:#cedddd;float:left">
+
+			<div id="image_2" class="absolute"></div>
+
+			<p id="proud2">Proud to serve mega brands everyday</p>
+		</div>
+
+	</section>
+
+	<div id="brands">
+		<div id="div1" style="padding:10px;background-color:#decddd;float:left">
+			<img src="heineken.jpg" height="50px">
+		</div>
+		<div id="div2" style="padding:10px;background-color:#cedddd;float:left">
+			<img src="cococola.jpg" height="50px">
+		</div>
+		<div id="div3" style="padding:10px;background-color:#cedddd;float:left">
+			<img src="bmw.jpg" height="50px">
+		</div>
+		<div id="div3" style="padding:10px;background-color:#cedddd;float:left">
+			<img src="carlsberg.jpg" height="50px">
+		</div>
+		<div id="div3" style="padding:10px;background-color:#cedddd;float:left">
+			<img src="vodafone.jpg" height="50px">
+		</div>
+		<div id="div3" style="padding:10px;background-color:#cedddd;float:left">
+			<img src="hermes.jpg" height="50px">
+		</div>
+		<div id="div3" style="padding:10px;background-color:#cedddd;float:left">
+			<img src="h&m.jpg" height="50px">
+		</div>
+		<div id="div3" style="padding:10px;background-color:#cedddd;float:left">
+			<img src="spotify.jpg" height="50px">
+		</div>
+	</div>
+
+	<section id="section_3">
+		
+		<div class="one" id="one_3"style="background-color:#decddd;float:left">
+
+			<div id="text3">
+				<h4>The Reality</h4>
+				<h2 id="h2_2">98% of online visitors will probably forget you!</h4>
+			</div>
+
+		</div>
+		
+
+		<div class="two" id="two_3" style="background-color:#005744;float:left">
+
+			<div id="box_2">
+				<div class="div4" id="div4" style="float:left">
+					<img src="search.png" style="padding: 0px" height="50px">
+				</div>
+				<div class="div5" style="float:left;">
+					<h3 class="h3_3">The attention economy <br>will dominate in 2022</h3>
+					<h4 class="h4_4">People only remember brands they buy from. And nearly all store visitors don’t.</h4>
+				</div>
+				<div class="div4"style="float:left">
+					<img src="heart.png" style="padding: 0px" height="50px">
+				</div>
+				<div class="div5" style="float:left;">
+					<h3 class="h3_3">Customers respond, more than ever - to meaningful connections</h3>
+					<h4 class="h4_4">Consumers expect you to pay attention, wherever they are online.</h4>
+				</div>
+				<div class="div4"style="float:left">
+					<img src="goal.png" style="padding: 0px" height="50px">
+				</div>
+				<div class="div5" style="float:left;">
+					<h3 class="h3_3">Brands who build long term relationships will win</h3>
+					<h4 class="h4_4">For repeat purchases, show people you know them, grow trust, and follow through</h4>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section id="section_4">
+		
+		<div class="one" id="one_3"style="float:left">
+
+			<div id="text3">
+				<h4>The marketing problem</h4>
+				<h2 class="h2_2">5,000+ advertising messages hit us all daily</h2>
+				<h4>Digital platforms, devices and channels is a battleground for attention.</h4>
+			</div>
+
+		</div>
+		
+
+		<div class="two" id="two_4" style="background-color:#decddd;float:left">
+
+			<div id="box_3">
+				<div class="div7" id="div4" style="float:left">
+					<img src="watch.png" style="padding: 0px" height="50px">
+				</div>
+				<div class="div6" style="float:left;">
+					<h4>Avg. attention span in 2000:</h4>
+				</div>
+
+				<h3 style="padding: 10px; font-size: 35px;">12 sec</h3>
+
+				<div class="div7" style="float:left">
+					<img src="watch.png" style="padding: 0px" height="50px">
+				</div>
+				<div class="div6" style="float:left;">
+					<h4>Avg. attention span in 2013:</h4>
+				</div>
+
+				<h3 style="padding: 10px; font-size: 30px;">8.25 sec</h3>
+
+				<div class="div7"style="float:left">
+					<img src="watch.png" style="padding: 0px" height="50px">
+				</div>
+				<div class="div6" style="float:left;">
+					<h4>Exp. attention span in 2022:</h4>
+				</div>
+
+				<h3 style="padding: 10px; font-size: 30px;">7 sec</h3>
+
+				<div class="div7"style="float:left">
+					<img src="watch.png" style="padding: 0px" height="50px">
+				</div>
+				<div class="div6" style="float:left;">
+					<h4>Exp. attention span in 2022:</h4>
+				</div>
+
+				<h3 style="padding: 10px; font-size: 30px;">3-5 sec</h3>
+			</div>
+		</div>
+
+	</section>
+
+	<section id="section_5">
+		
+		<div id="one_4" style="float:left;">
+
+			<div id="text3" style="height: 250px;">
+				<h2 id="h2_3" style="font-size: 40px;">The advertising market sees a<br>shift as brand as a force for growth</h2>
+			</div>
+
+			<div id="box_5">
+				<div class="div4" id="div4" style="float:left;">
+					<img src="image_3.png" style="padding-left:50px;height:150px;">
+					<p style="text-align: center;">The 70’s - 90’s</p>
+					<h5>Brand building on <br>broadcast media</h5>
+				</div>
+
+				<div class="div4" id="div4" style="float:left;">
+					<img src="arrow.png" style="padding-left:0px;height:20px;margin-top: 0px;">
+				</div>
+
+
+				<div class="div4" style="float:left;">
+					<img src="image_4.png" style="padding-left:50px;height: 150px;">
+					<p style="text-align: center;">The 00’s - 10’s</p>
+					<h5>Performance marketing <br>in a digital world</h5>
+				</div>
+
+				<div class="div4" id="div4" style="float:left;">
+					<img src="arrow.png" style="padding-left:0px;height:20px;margin-top:0px;">
+				</div>
+
+				<div class="div4"style="float:left">
+					<video style="padding-left:50px; height: 150px;"><source src="video_1.mp4" type="video/mp4"></video>
+					<p style="text-align: center;">The 20’s </p>
+					<h5>High Impact and engaging <br>storytelling in relevant context</h5>
+				</div>
+			
+				</div>
+			
+				<div id="brand_quotes">
+					<div id="div1" style="padding:10px;background-color:#decddd;float:left;">
+						<img src="citation.png" height="50px">
+					</div>
+					<div id="div2" style="padding:10px;background-color:#cedddd;float:left;">
+						<img src="mckinsey.png" height="50px">
+					</div>
+					<div id="div3" style="padding:10px;background-color:#cedddd;float:left;">
+						<p>Strong brands consistently<br>outperform the market.</p>
+					</div>
+					<div id="div3" style="padding:10px;background-color:#cedddd;float:left;">
+						<img src="facebook.png" height="50px">
+					</div>
+					<div id="div3" style="padding:10px;background-color:#cedddd;float:left;border-top:">
+						<p>The next big evolution in the ad<br>industry will be the creative.</p>
+					</div>
+				</div>
+
+		</div>
+</section>
+
+<section id="section_6">
+
+	<div id="one_5" style="float:left;">
+
+			<div id="text3" style="height: 250px;">
+				<h2 id="h2_3" style="font-size: 40px;">The strong brands will always win</h2>
+			</div>
+
+			<div id="box_6">
+				<div id="box_left" style="padding:10px;background-color:#decddd;float:left;">
+					<div class="div4" id="div4" style="float:left">
+						<img src="1.png" style="padding: 0px" height="50px">
+					</div>
+					<div class="div5" style="float:left;">
+						<h3 style="padding: 29px;">Better customer recognition</h3>
+					</div>
+
+					<div class="div4"style="float:left">
+						<img src="2.png" style="padding: 0px" height="50px">
+					</div>
+					<div class="div5" style="float:left;">
+						<h3 style="padding: 35px;">Higher customer loyalty</h3>
+					</div>
+
+					<div class="div4"style="float:left">
+						<img src="3.png" style="padding: 0px" height="50px">
+					</div>
+					<div class="div5" style="float:left;">
+						<h3 style="padding: 29px;">More word of mouth</h3>
+					</div>
+
+				</div>
+				<div id="box_right" style="padding:10px;background-color:#cedddd;float:left;">
+	<div class="div4" id="div4" style="float:left">
+						<img src="4.png" style="padding: 0px" height="50px">
+					</div>
+					<div class="div5" style="float:left;">
+						<h3 style="padding: 29px;">Better customer recognition</h3>
+					</div>
+
+					<div class="div4"style="float:left">
+						<img src="5.png" style="padding: 0px" height="50px">
+					</div>
+					<div class="div5" style="float:left;">
+						<h3 style="padding: 35px;">Higher customer loyalty</h3>
+					</div>
+
+					<div class="div4"style="float:left">
+						<img src="6.png" style="padding: 0px" height="50px">
+					</div>
+					<div class="div5" style="float:left;">
+						<h3 style="padding: 29px;">More word of mouth</h3>
+					</div>
+				</div>
+			</div>
+	</div>
+
+	
+</section>
+
+<section id="section_7">
+	
+</section>
+
+
+</body>
+</html>
